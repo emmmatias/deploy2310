@@ -1,4 +1,4 @@
-# Wuilders Encrypt
+# Notes Encrypt
 
 ## Descripción
 Wuilders Encrypt es una aplicación web segura para la gestión de mensajes encriptados, desarrollada con Flask, JavaScript vanilla y TailwindCSS. Permite a los usuarios crear, leer, editar y eliminar mensajes encriptados con caducidad, todo ello sin necesidad de registro.
@@ -22,8 +22,8 @@ Wuilders Encrypt es una aplicación web segura para la gestión de mensajes encr
 
 1. Clonar el repositorio:
    ```
-   git clone https://github.com/tu-usuario/wuilders-encrypt.git
-   cd wuilders-encrypt
+   git clone https://github.com/tu-usuario/notes-encrypt.git
+   cd notes-encrypt
    ```
 
 2. Instalar las dependencias:
@@ -81,6 +81,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue para discutir cambi
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
----
 
-Desarrollado por Wuilders Lab © 2024
