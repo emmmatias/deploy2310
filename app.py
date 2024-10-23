@@ -23,11 +23,12 @@ app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {
 db.init_app(app)
 migrate.init_app(app, db)
 
-with app.app_context():
-    import models
-    db.create_all()
+
 
 import routes
 
 if __name__ == "__main__":
+    with app.app_context():
+        import models
+        db.create_all()
     app.run(host="0.0.0.0", port=5000)
